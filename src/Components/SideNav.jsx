@@ -8,7 +8,7 @@ const SideNav = () => {
         <br /> 
         ochi hai apun ochi
         <br />
-        dhee chod ke 
+        dhee chod ke bsdk
     </box>
   )
 }
