@@ -1,8 +1,11 @@
 import React from 'react'
+import Dashboard from './pages/Dashboard/Dashboard'
 
 const App = () => {
   return (
-    <div>hellow</div>
+    <div>
+      <Dashboard/>
+    </div>
   )
 }
 
