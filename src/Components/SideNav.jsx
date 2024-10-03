@@ -1,15 +1,10 @@
 import React from 'react'
-
+import { Box } from '@chakra-ui/react'
 const SideNav = () => {
   return (
-    <box>editing hogi yaha bhot kaidi
-        <br />
-        bhen ke land autat mai samjha
-        <br /> 
-        ochi hai apun ochi
-        <br />
-        dhee chod ke bsdk
-    </box>
+    <Box as='h2'>
+SideNav
+    </Box>
   )
 }
 
