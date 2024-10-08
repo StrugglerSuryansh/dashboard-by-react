@@ -8,7 +8,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { theme } from './theme/index.js';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <ChakraProvider theme={theme}>
+     <ChakraProvider theme={theme}>{/* theme is imported from the index.js from themes */}
      <App />
     </ChakraProvider>
   </StrictMode>
