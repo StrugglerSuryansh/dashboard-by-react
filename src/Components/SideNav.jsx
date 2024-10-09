@@ -23,14 +23,24 @@ const SideNav = () => {
   
   return (
     
-   <Stack boxShadow="sm" maxW="16rem" h="100vh" bg="red">
+   <Stack boxShadow="sm" maxW="16rem" h="100vh"   >
     <Heading textAlign="center" as="h1" fontSize="20px" pt="3.5rem" >@DOSOMECODING</Heading>
     <Box mt="6">
     {
       navLinks.map((nav)=>(
-        <HStack mx='3' key={nav.text}>
+        <HStack borderRadius="10px" mx='3' mt='6' key={nav.text} py="3" px="4" _hover={
+          {
+            bg: "#F3F3F7",
+            borderRadius: "md",
+            color: "#171717",
+        }}
+        color="#797E82"
+         >
+          
+
+
           <Icon as={nav.icon} />
-          <Text>nav.text</Text>
+          <Text fontSize="14px" fontWeight="medium"  >nav.text</Text>
         </HStack>
 
       ))}
